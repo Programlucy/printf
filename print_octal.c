@@ -18,7 +18,8 @@ int print_octal(va_list types, char buffer[],
 	int i = BUFF_SIZE - 2;
 	unsigned long int num = va_arg(types, unsigned long int);
 	unsigned long int init_num = num;
-        UNUSED(width);
+
+	UNUSED(width);
 
 	num = convert_size_unsgnd(num, size);
 
@@ -40,4 +41,3 @@ int print_octal(va_list types, char buffer[],
 
 	return (write_unsgnd(0, i, buffer, flags, width, precision, size));
 }
-

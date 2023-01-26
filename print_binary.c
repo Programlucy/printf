@@ -21,8 +21,7 @@ int print_binary(va_list types, char buffer[],
 	UNUSED(buffer);
 	UNUSED(flags);
 	UNUSED(width);
-
-UNUSED(precision);
+	UNUSED(precision);
 	UNUSED(size);
 
 	n = va_arg(types, unsigned int);
