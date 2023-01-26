@@ -21,7 +21,7 @@ int print_string(va_list types, char buffer[],
 	UNUSED(flags);
 	UNUSED(width);
 	UNUSED(precision);
-UNUSED(size);
+	UNUSED(size);
 	if (str == NULL)
 	{
 		str = "(null)";

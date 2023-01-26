@@ -23,7 +23,7 @@ int print_rot13string(va_list types, char buffer[],
 
 	str = va_arg(types, char *);
 	UNUSED(buffer);
-UNUSED(flags);
+	UNUSED(flags);
 	UNUSED(width);
 	UNUSED(precision);
 	UNUSED(size);

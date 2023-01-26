@@ -2,7 +2,7 @@
 
 /************************* PRINT BINARY *************************/
 /**
- * print_binary - Prints an unsigned number...	
+ * print_binary - Prints an unsigned number
  * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
